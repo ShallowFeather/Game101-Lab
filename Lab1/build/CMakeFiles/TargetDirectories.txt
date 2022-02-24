@@ -1,0 +1,3 @@
+/home/sf/下載/´úÂë¿ò¼Ü/build/CMakeFiles/rebuild_cache.dir
+/home/sf/下載/´úÂë¿ò¼Ü/build/CMakeFiles/edit_cache.dir
+/home/sf/下載/´úÂë¿ò¼Ü/build/CMakeFiles/Rasterizer.dir
