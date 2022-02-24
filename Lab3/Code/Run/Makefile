@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sf/文件/圖學/Lab3/Code
+CMAKE_SOURCE_DIR = /home/sf/文件/圖學/Game101-Lab/Lab3/Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sf/文件/圖學/Lab3/Code/Run
+CMAKE_BINARY_DIR = /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles /home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

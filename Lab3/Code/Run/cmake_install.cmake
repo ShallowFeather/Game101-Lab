@@ -1,4 +1,4 @@
-# Install script for directory: /home/sf/文件/圖學/Lab3/Code
+# Install script for directory: /home/sf/文件/圖學/Game101-Lab/Lab3/Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sf/文件/圖學/Lab3/Code/Run/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

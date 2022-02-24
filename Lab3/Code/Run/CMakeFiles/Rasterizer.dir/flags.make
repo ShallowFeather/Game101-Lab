@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sf/文件/圖學/Lab3/Code/./include -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I/home/sf/文件/圖學/Game101-Lab/Lab3/Code/./include -isystem /usr/include/opencv4 
 

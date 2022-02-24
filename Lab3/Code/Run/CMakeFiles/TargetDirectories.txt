@@ -1,3 +1,3 @@
-/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles/rebuild_cache.dir
-/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles/edit_cache.dir
-/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles/Rasterizer.dir
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles/rebuild_cache.dir
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles/edit_cache.dir
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles/Rasterizer.dir

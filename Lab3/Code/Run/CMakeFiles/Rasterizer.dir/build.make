@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sf/文件/圖學/Lab3/Code
+CMAKE_SOURCE_DIR = /home/sf/文件/圖學/Game101-Lab/Lab3/Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sf/文件/圖學/Lab3/Code/Run
+CMAKE_BINARY_DIR = /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Rasterizer.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/Rasterizer.dir/flags.make
 
 CMakeFiles/Rasterizer.dir/main.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rasterizer.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/main.cpp.o -c /home/sf/文件/圖學/Lab3/Code/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Rasterizer.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/main.cpp.o -c /home/sf/文件/圖學/Game101-Lab/Lab3/Code/main.cpp
 
 CMakeFiles/Rasterizer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Lab3/Code/main.cpp > CMakeFiles/Rasterizer.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Game101-Lab/Lab3/Code/main.cpp > CMakeFiles/Rasterizer.dir/main.cpp.i
 
 CMakeFiles/Rasterizer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Lab3/Code/main.cpp -o CMakeFiles/Rasterizer.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Game101-Lab/Lab3/Code/main.cpp -o CMakeFiles/Rasterizer.dir/main.cpp.s
 
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.o: ../rasterizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rasterizer.dir/rasterizer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.o -c /home/sf/文件/圖學/Lab3/Code/rasterizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Rasterizer.dir/rasterizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.o -c /home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.cpp
 
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/rasterizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Lab3/Code/rasterizer.cpp > CMakeFiles/Rasterizer.dir/rasterizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.cpp > CMakeFiles/Rasterizer.dir/rasterizer.cpp.i
 
 CMakeFiles/Rasterizer.dir/rasterizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/rasterizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Lab3/Code/rasterizer.cpp -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.cpp -o CMakeFiles/Rasterizer.dir/rasterizer.cpp.s
 
 CMakeFiles/Rasterizer.dir/Triangle.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/Triangle.cpp.o: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rasterizer.dir/Triangle.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Triangle.cpp.o -c /home/sf/文件/圖學/Lab3/Code/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Rasterizer.dir/Triangle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Triangle.cpp.o -c /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.cpp
 
 CMakeFiles/Rasterizer.dir/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/Triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Lab3/Code/Triangle.cpp > CMakeFiles/Rasterizer.dir/Triangle.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.cpp > CMakeFiles/Rasterizer.dir/Triangle.cpp.i
 
 CMakeFiles/Rasterizer.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/Triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Lab3/Code/Triangle.cpp -o CMakeFiles/Rasterizer.dir/Triangle.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.cpp -o CMakeFiles/Rasterizer.dir/Triangle.cpp.s
 
 CMakeFiles/Rasterizer.dir/Texture.cpp.o: CMakeFiles/Rasterizer.dir/flags.make
 CMakeFiles/Rasterizer.dir/Texture.cpp.o: ../Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rasterizer.dir/Texture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Texture.cpp.o -c /home/sf/文件/圖學/Lab3/Code/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Rasterizer.dir/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rasterizer.dir/Texture.cpp.o -c /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.cpp
 
 CMakeFiles/Rasterizer.dir/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rasterizer.dir/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Lab3/Code/Texture.cpp > CMakeFiles/Rasterizer.dir/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.cpp > CMakeFiles/Rasterizer.dir/Texture.cpp.i
 
 CMakeFiles/Rasterizer.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rasterizer.dir/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Lab3/Code/Texture.cpp -o CMakeFiles/Rasterizer.dir/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.cpp -o CMakeFiles/Rasterizer.dir/Texture.cpp.s
 
 # Object files for target Rasterizer
 Rasterizer_OBJECTS = \
@@ -173,7 +173,7 @@ Rasterizer: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
 Rasterizer: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 Rasterizer: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 Rasterizer: CMakeFiles/Rasterizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Rasterizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Rasterizer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rasterizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -186,6 +186,6 @@ CMakeFiles/Rasterizer.dir/clean:
 .PHONY : CMakeFiles/Rasterizer.dir/clean
 
 CMakeFiles/Rasterizer.dir/depend:
-	cd /home/sf/文件/圖學/Lab3/Code/Run && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sf/文件/圖學/Lab3/Code /home/sf/文件/圖學/Lab3/Code /home/sf/文件/圖學/Lab3/Code/Run /home/sf/文件/圖學/Lab3/Code/Run /home/sf/文件/圖學/Lab3/Code/Run/CMakeFiles/Rasterizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sf/文件/圖學/Game101-Lab/Lab3/Code /home/sf/文件/圖學/Game101-Lab/Lab3/Code /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Run/CMakeFiles/Rasterizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Rasterizer.dir/depend
 
