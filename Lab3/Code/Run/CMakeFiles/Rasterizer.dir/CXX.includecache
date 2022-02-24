@@ -6,25 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/OBJ_Loader.h
-iostream
--
-vector
--
-string
--
-fstream
--
-math.h
--
-
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Shader.hpp
 eigen3/Eigen/Eigen
 -
 Texture.hpp
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.hpp
-
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.cpp
 
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.hpp
 global.hpp
@@ -34,14 +20,6 @@ eigen3/Eigen/Eigen
 opencv2/opencv.hpp
 -
 
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.cpp
-Triangle.hpp
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.hpp
-algorithm
--
-array
--
-
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.hpp
 eigen3/Eigen/Eigen
 -
@@ -49,24 +27,6 @@ Texture.hpp
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.hpp
 
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/global.hpp
-
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/main.cpp
-iostream
--
-opencv2/opencv.hpp
--
-global.hpp
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/global.hpp
-rasterizer.hpp
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.hpp
-Triangle.hpp
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.hpp
-Shader.hpp
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Shader.hpp
-Texture.hpp
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.hpp
-OBJ_Loader.h
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/OBJ_Loader.h
 
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.cpp
 algorithm
