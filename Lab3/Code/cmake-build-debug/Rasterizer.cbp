@@ -5,46 +5,46 @@
 		<Option title="Rasterizer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sf/文件/圖學/Lab3/Code/cmake-build-debug"/>
+				<Option working_dir="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sf/文件/圖學/Lab3/Code/cmake-build-debug"/>
+				<Option working_dir="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sf/文件/圖學/Lab3/Code/cmake-build-debug"/>
+				<Option working_dir="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Rasterizer">
-				<Option output="/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Rasterizer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sf/文件/圖學/Lab3/Code/cmake-build-debug"/>
+				<Option output="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Rasterizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sf/文件/圖學/Lab3/Code/./include"/>
+					<Add directory="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/./include"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
@@ -55,20 +55,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rasterizer"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rasterizer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Rasterizer/fast">
-				<Option output="/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Rasterizer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sf/文件/圖學/Lab3/Code/cmake-build-debug"/>
+				<Option output="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Rasterizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sf/文件/圖學/Lab3/Code/./include"/>
+					<Add directory="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/./include"/>
 					<Add directory="/usr/include/opencv4"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
@@ -79,57 +79,57 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rasterizer/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Rasterizer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sf/文件/圖學/Game101-Lab/Lab3/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/OBJ_Loader.h">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/OBJ_Loader.h">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/Shader.hpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Shader.hpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/Texture.cpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.cpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/Texture.hpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.hpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/Triangle.cpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.cpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/Triangle.hpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.hpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/global.hpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/global.hpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/main.cpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/main.cpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/rasterizer.cpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.cpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/rasterizer.hpp">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.hpp">
 			<Option target="Rasterizer"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/CMakeLists.txt">
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/sf/文件/圖學/Lab3/Code/../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
+		<Unit filename="/home/sf/文件/圖學/Game101-Lab/Lab3/Code/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sf/文件/圖學/Lab3/Code/Texture.cpp" "CMakeFiles/Rasterizer.dir/Texture.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Texture.cpp.o.d"
-  "/home/sf/文件/圖學/Lab3/Code/Triangle.cpp" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o.d"
-  "/home/sf/文件/圖學/Lab3/Code/main.cpp" "CMakeFiles/Rasterizer.dir/main.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/main.cpp.o.d"
-  "/home/sf/文件/圖學/Lab3/Code/rasterizer.cpp" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o.d"
+  "/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.cpp" "CMakeFiles/Rasterizer.dir/Texture.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Texture.cpp.o.d"
+  "/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.cpp" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/Triangle.cpp.o.d"
+  "/home/sf/文件/圖學/Game101-Lab/Lab3/Code/main.cpp" "CMakeFiles/Rasterizer.dir/main.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/main.cpp.o.d"
+  "/home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.cpp" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o" "gcc" "CMakeFiles/Rasterizer.dir/rasterizer.cpp.o.d"
   )
 
 # Targets to which this target links.
