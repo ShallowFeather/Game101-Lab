@@ -52,11 +52,11 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float z
     // Students will implement this function
     // aspect_ratio = width / height
     Eigen::Matrix4f projection = Eigen::Matrix4f::Identity();
-    Eigen::Matrix4f Orth1 = Eigen::Matrix4f::Identity();
-    Eigen::Matrix4f Orth2 = Eigen::Matrix4f::Identity();
-    Eigen::Matrix4f P = Eigen::Matrix4f::Identity();
+    Eigen::Matrix4f Orth1(4, 4);
+    Eigen::Matrix4f Orth2(4, 4);
+    Eigen::Matrix4f P(4, 4);
     auto fov = eye_fov / 2.0 / 180.0 * MY_PI;
-    auto T = zNear * tan(fov);
+    auto T = -zNear * tan(fov);
     auto B = -T;
     auto R = aspect_ratio * T;
     auto L = -R;
@@ -66,7 +66,7 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float z
             0, 0, 1, 0;
     Orth1 << 1 / (R), 0, 0, 0,
             0, 1 / (T), 0, 0,
-            0, 0, 2 / (zNear - zFar), 0,
+            0, 0, 2  / (zNear - zFar), 0,
             0, 0, 0, 1;
     Orth2 << 1, 0, 0, 0,
             0, 1, 0, 0,
@@ -76,7 +76,7 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float z
     // Create the projection matrix for the given parameters.
     // Then return it.
     Eigen::Matrix4f last = Orth1 * Orth2;
-    projection = last * P;
+    projection = last * P * projection;
     return projection;
 }
 
@@ -170,7 +170,10 @@ Eigen::Vector3f phong_fragment_shader(const fragment_shader_payload& payload)
     {
         // TODO: For each light source in the code, calculate what the *ambient*, *diffuse*, and *specular* 
         // components are. Then, accumulate that result on the *result_color* object.
-        
+        auto pos = light.position;
+        auto I = light.intensity;
+        //auto Ld = kd * ()
+
     }
 
     return result_color * 255.f;
