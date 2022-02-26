@@ -270,9 +270,13 @@ void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eig
     auto ny = std::min({v[0][1], v[1][1], v[2][1]});
     auto mx = std::max({v[0][0], v[1][0], v[2][0]});
     auto my = std::max({v[0][1], v[1][1], v[2][1]});
+    int minx = std::floor(nx);
+    int miny = std::floor(ny);
+    int maxx = std::ceil(mx);
+    int maxy = std::ceil(my);
     Eigen::Vector3f point(0, 0, 0);
-    for(float x = nx; x < mx; x++) {
-        for(float y = ny; y < my; y++) {
+    for(float x = minx; x <= maxx; x++) {
+        for(float y = miny; y <= maxy; y++) {
             if(insideTriangle(x + 0.5, y + 0.5, t.v)) {
                 point.x() = x;
                 point.y() = y;
