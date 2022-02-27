@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/OBJ_Loader.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+math.h
+-
+
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/Shader.hpp
 eigen3/Eigen/Eigen
 -
@@ -28,15 +40,23 @@ Texture.hpp
 
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/global.hpp
 
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.cpp
-algorithm
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/main.cpp
+iostream
 -
-rasterizer.hpp
-/home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.hpp
 opencv2/opencv.hpp
 -
-math.h
--
+global.hpp
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/global.hpp
+rasterizer.hpp
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.hpp
+Triangle.hpp
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Triangle.hpp
+Shader.hpp
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Shader.hpp
+Texture.hpp
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/Texture.hpp
+OBJ_Loader.h
+/home/sf/文件/圖學/Game101-Lab/Lab3/Code/OBJ_Loader.h
 
 /home/sf/文件/圖學/Game101-Lab/Lab3/Code/rasterizer.hpp
 eigen3/Eigen/Eigen
