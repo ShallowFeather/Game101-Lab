@@ -34,7 +34,7 @@ public:
 
     Intersection Intersect(const Ray &ray) const;
     Intersection getIntersection(BVHBuildNode* node, const Ray& ray)const;
-    bool IntersectP(const Ray &ray) const;
+    bool IntersectP(const Ray &ray, Vector3f f, std::array<int, 3> array) const;
     BVHBuildNode* root;
 
     // BVHAccel Private Methods
