@@ -1,0 +1,3 @@
+/home/sf/文件/圖學/Game101-Lab/Lab7/Assignment7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sf/文件/圖學/Game101-Lab/Lab7/Assignment7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sf/文件/圖學/Game101-Lab/Lab7/Assignment7/cmake-build-debug/CMakeFiles/RayTracing.dir
