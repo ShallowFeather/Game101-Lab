@@ -12,7 +12,17 @@ namespace CGL {
     Rope::Rope(Vector2D start, Vector2D end, int num_nodes, float node_mass, float k, vector<int> pinned_nodes)
     {
         // TODO (Part 1): Create a rope starting at `start`, ending at `end`, and containing `num_nodes` nodes.
-
+        auto dis = (end - start) / (num_nodes);
+        for(int i = 0; i < num_nodes; i++) {
+            auto *node = new Mass(start + dis * i, node_mass, false);
+            masses.push_back(node);
+            if(i == 0) continue;
+            auto *spr = new Spring(masses[i - 1], masses[i], k);
+            springs.push_back(spr);
+        }
+        for(auto &i: pinned_nodes) {
+            masses[i]->pinned = true;
+        }
 //        Comment-in this part when you implement the constructor
 //        for (auto &i : pinned_nodes) {
 //            masses[i]->pinned = true;
@@ -24,6 +34,7 @@ namespace CGL {
         for (auto &s : springs)
         {
             // TODO (Part 2): Use Hooke's law to calculate the force on a node
+
         }
 
         for (auto &m : masses)
