@@ -60,5 +60,47 @@ bool Scene::trace(
 // Implementation of Path Tracing
 Vector3f Scene::castRay(const Ray &ray, int depth) const
 {
-    // TO DO Implement Path Tracing Algorithm here
+    // TODO Implement Path Tracing Algorithm here
+    auto inter = intersect(ray);
+
+    if(inter.happened) {
+        if (inter.m->hasEmission()) {
+            if (depth == 0) {
+                return inter.m->getEmission();
+            }
+            return Vector3f(0, 0, 0);
+        }
+
+        Vector3f L_dir(0, 0, 0);
+        Vector3f L_indir(0, 0, 0);
+        Intersection lightInter;
+        float pdf_light = 0.0f;
+        sampleLight(lightInter, pdf_light);
+        auto &N = inter.normal;
+        auto &NN = lightInter.normal;
+        auto &objPos = inter.coords;
+        auto &lightPos = lightInter.coords;
+        auto diff = lightPos - objPos;
+        auto lightDir = diff.normalized();
+        float lightDistance = diff.x * diff.x + diff.y * diff.y + diff.z * diff.z;
+        Ray light(objPos, lightDir);
+        Intersection light2obj = intersect(light);
+        if (light2obj.happened && (light2obj.coords - lightPos).norm() < 1e-2) {
+            Vector3f f_r = inter.m->eval(ray.direction, lightDir, N);
+            L_dir = lightInter.emit * f_r * dotProduct(lightDir, N) * dotProduct(-lightDir, NN) / lightDistance /
+                    pdf_light;
+        }
+        if (get_random_float() < RussianRoulette) {
+            Vector3f nextDir = inter.m->sample(ray.direction, N).normalized();
+            Ray nextRay(objPos, nextDir);
+            auto nextinter = intersect(nextRay);
+            if (nextinter.happened && !nextinter.m->hasEmission()) {
+                float pdf = inter.m->pdf(ray.direction, nextDir, N);
+                Vector3f f_r = inter.m->eval(ray.direction, nextDir, N);
+                L_indir = castRay(nextRay, depth + 1) * f_r * dotProduct(nextDir, N) / pdf / RussianRoulette;
+            }
+        }
+        return L_indir + L_dir;
+    }
+    return Vector3f(0, 0, 0);
 }
