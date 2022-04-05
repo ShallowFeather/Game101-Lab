@@ -31,18 +31,25 @@ namespace CGL {
 
     void Rope::simulateEuler(float delta_t, Vector2D gravity)
     {
+        int total = 0;
         for (auto &s : springs)
         {
             // TODO (Part 2): Use Hooke's law to calculate the force on a node
-
+            Vector2D ba = s->m2->position - s->m1->position;
+            auto BA = ba.norm();
+            auto force = -1 * s->k * (ba.unit()) * (BA - s->rest_length);
+            s->m1->forces += force;
+            s->m2->forces -= force;
         }
 
         for (auto &m : masses)
         {
+            auto k_d = 0.1;
             if (!m->pinned)
             {
                 // TODO (Part 2): Add the force due to gravity, then compute the new velocity and position
-
+                m->forces += m->velocity + m->mass * gravity;
+                m->position
                 // TODO (Part 2): Add global damping
             }
 
